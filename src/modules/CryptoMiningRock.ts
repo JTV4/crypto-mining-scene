@@ -13,7 +13,7 @@ export const rockPositions = [
 ]
 
 
-export class CrypoRockGenerator {
+export class CryptoRockGenerator {
 
     static spawnRandomCryptoRock = () => { //should create a rock at a random position in the list of rock positions
         const randomNumber = Math.floor((rockPositions.length - 1)*(Math.random()))
